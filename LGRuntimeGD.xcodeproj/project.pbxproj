@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0441847B1D0E5DC000483084 /* LGCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441847A1D0E5DC000483084 /* LGCoding.m */; };
 		04EA6F2E1D0D568B00B408A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F2D1D0D568B00B408A6 /* main.m */; };
 		04EA6F311D0D568B00B408A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F301D0D568B00B408A6 /* AppDelegate.m */; };
 		04EA6F341D0D568B00B408A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F331D0D568B00B408A6 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		04EA6F3C1D0D568B00B408A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA6F3A1D0D568B00B408A6 /* LaunchScreen.storyboard */; };
 		04EA6F471D0D568B00B408A6 /* LGRuntimeGDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F461D0D568B00B408A6 /* LGRuntimeGDTests.m */; };
 		04EA6F521D0D568B00B408A6 /* LGRuntimeGDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F511D0D568B00B408A6 /* LGRuntimeGDUITests.m */; };
+		04EA6F611D0D56B100B408A6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F601D0D56B100B408A6 /* Person.m */; };
+		04EA6F641D0D659D00B408A6 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F631D0D659D00B408A6 /* RuntimeViewController.m */; };
+		04EA6F671D0D663800B408A6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6F661D0D663800B408A6 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044184791D0E5DC000483084 /* LGCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCoding.h; sourceTree = "<group>"; };
+		0441847A1D0E5DC000483084 /* LGCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCoding.m; sourceTree = "<group>"; };
 		04EA6F291D0D568B00B408A6 /* LGRuntimeGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGRuntimeGD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA6F2D1D0D568B00B408A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04EA6F2F1D0D568B00B408A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		04EA6F4D1D0D568B00B408A6 /* LGRuntimeGDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGRuntimeGDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA6F511D0D568B00B408A6 /* LGRuntimeGDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRuntimeGDUITests.m; sourceTree = "<group>"; };
 		04EA6F531D0D568B00B408A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA6F5F1D0D56B100B408A6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04EA6F601D0D56B100B408A6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04EA6F621D0D659D00B408A6 /* RuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		04EA6F631D0D659D00B408A6 /* RuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		04EA6F651D0D663800B408A6 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		04EA6F661D0D663800B408A6 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +117,19 @@
 				04EA6F301D0D568B00B408A6 /* AppDelegate.m */,
 				04EA6F321D0D568B00B408A6 /* ViewController.h */,
 				04EA6F331D0D568B00B408A6 /* ViewController.m */,
+				04EA6F651D0D663800B408A6 /* Animal.h */,
+				04EA6F661D0D663800B408A6 /* Animal.m */,
+				044184791D0E5DC000483084 /* LGCoding.h */,
+				0441847A1D0E5DC000483084 /* LGCoding.m */,
+				04EA6F5F1D0D56B100B408A6 /* Person.h */,
+				04EA6F601D0D56B100B408A6 /* Person.m */,
 				04EA6F351D0D568B00B408A6 /* Main.storyboard */,
 				04EA6F381D0D568B00B408A6 /* Assets.xcassets */,
 				04EA6F3A1D0D568B00B408A6 /* LaunchScreen.storyboard */,
 				04EA6F3D1D0D568B00B408A6 /* Info.plist */,
 				04EA6F2C1D0D568B00B408A6 /* Supporting Files */,
+				04EA6F621D0D659D00B408A6 /* RuntimeViewController.h */,
+				04EA6F631D0D659D00B408A6 /* RuntimeViewController.m */,
 			);
 			path = LGRuntimeGD;
 			sourceTree = "<group>";
@@ -272,7 +292,11 @@
 			files = (
 				04EA6F341D0D568B00B408A6 /* ViewController.m in Sources */,
 				04EA6F311D0D568B00B408A6 /* AppDelegate.m in Sources */,
+				04EA6F641D0D659D00B408A6 /* RuntimeViewController.m in Sources */,
+				04EA6F671D0D663800B408A6 /* Animal.m in Sources */,
+				04EA6F611D0D56B100B408A6 /* Person.m in Sources */,
 				04EA6F2E1D0D568B00B408A6 /* main.m in Sources */,
+				0441847B1D0E5DC000483084 /* LGCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +520,7 @@
 				04EA6F581D0D568B00B408A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EA6F591D0D568B00B408A6 /* Build configuration list for PBXNativeTarget "LGRuntimeGDTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				04EA6F5B1D0D568B00B408A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EA6F5C1D0D568B00B408A6 /* Build configuration list for PBXNativeTarget "LGRuntimeGDUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				04EA6F5E1D0D568B00B408A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
